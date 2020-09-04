@@ -1,0 +1,34 @@
+@font-face{
+	font-family:box_scholboy;
+	src:url(/resurUs/fonts/11994.ttf);
+}
+table, th, td {
+padding: 4px;
+border-collapse: collapse;
+text-align:center;
+}
+th {
+	border: 2px solid black;
+}
+td {
+	border: 1px solid black;
+}
+html {
+font-size:4em;
+}
+.fio_tab {
+	font-family:box_scholboy,sans-serif;
+	font-size:2em;
+}
+.tab_history {
+	 font-family:headmenu,sans-serif;
+	 margin:20px auto;
+}
+.box_history{
+	text-align:center;
+}
+.teacher {
+	font-family:box_scholboy,sans-serif;
+	font-size:1em;
+	text-align:right;
+}

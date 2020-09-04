@@ -1,0 +1,104 @@
+@font-face{
+	font-family:hinv;
+	src:url(/resurUs/fonts/16460.ttf);
+}	
+@font-face{
+	font-family:textinv;
+	src:url(/resurUs/fonts/18767.otf);
+}
+@font-face{
+	font-family:montsf;
+	src:url(/resurUs/fonts/17463.ttf);
+}
+@font-face{
+	font-family:textinvbox;
+	src:url(/resurUs/fonts/12204.otf);
+}
+input[name='cash'] {
+	width:200px;
+	text-align:center;
+	font-size:1em;
+}
+input[name='comm'] {
+	width:500px;
+	text-align:center;
+	font-size:1em;
+	margin-top:10px;
+}
+.box_addcash {
+	font-family:headmenu3,sans-serif;
+	font-size:3em;
+	margin-top:25px;
+}
+.invbox {
+	width:94%;
+	margin: 0 auto;
+	padding: 5px;
+}
+.hinvbox {
+	text-align:center;
+	font-family: hinv;
+	font-size:4.2em;
+}
+.textinvbox {
+	font-family: textinvbox;
+	font-size:2.7em;
+}
+.textinvbox2 {
+	font-family: textinvbox;
+	font-size:2.7em;
+}
+.boxsumm {
+	width:210px;
+	float:right;
+	text-align:center;
+	border-width:1px;
+	border-style:solid;
+}
+.boxnameinv {
+	
+}
+.iqowidowmenu {
+	float:right;
+	width:64px;
+	margin-top:15px;
+	margin-right:15px;
+}
+.iqom {
+	margin-left:15px;
+}
+.tabsumm {
+	text-align:right;
+	width:23%;
+	height:90px;
+}
+.tabsumm2 {
+	width:23%;
+	height:190px;
+}
+.tabsumm3{
+	height:50px;
+}
+.hiddenbox {
+	display:none;
+}
+.texttab {
+	display:block;
+	margin-top:-15px;
+	font-size:0.5em;
+	text-align:right;
+}
+.texttab2 {
+	margin-top:-15px;
+	color:grey;
+	font-size:0.5em;
+	display:block;
+	text-align:right;
+}
+.buttonInOut {
+	width: 20%; 
+	text-align: center; 
+	border: 1px solid black;
+	border-radius: 8px 8px 0 0;
+	border-bottom: none;
+}

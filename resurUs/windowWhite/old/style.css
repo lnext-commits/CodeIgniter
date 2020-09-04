@@ -1,0 +1,99 @@
+﻿@font-face {
+    font-family: 'algeR';
+    src:  url('fonts/MICRADI_.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'adb';
+    src:  url('fonts/ARBADB__.TTF') format('truetype');
+} 
+/*
+@font-face {
+    font-family: 'f3';
+    src:  url('ARBATDI_.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'f4';
+    src:  url('BINND___.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'f5';
+    src:  url('KURITZA_.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'f6';
+    src:  url('MICRADI_.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'f7';
+    src:  url('impact.ttf') format('truetype');
+}
+*/
+
+/* widow*/
+.cover-div{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  opacity: 0.6;
+  /*filter: alpha(opacity=40);*/
+}
+.bodyWin{
+	position: absolute;
+	left:300px;
+	top:100px;
+	width:500px;
+	height:200px;
+	background-color: white;
+	font-family: 'adb';
+	border-radius:5px; 
+	-webkit-border-radius:5px; 
+	-moz-border-radius:4px; 
+	-khtml-border-radius:9px;
+	-webkit-box-shadow:0 0 25px 13px rgba(0, 0, 0, 0.52);
+	-moz-box-shadow:0 0 25px 13px rgba(0, 0, 0, 0.52);
+	box-shadow:0 0 25px 13px rgba(0, 0, 0, 0.52);
+}
+.titlWinLeft {
+	float:left;
+	border-radius:5px 0 0 0; 
+	-webkit-border-radius:5px 0 0 0; 
+	-moz-border-radius:4px 0 0 0; 
+	-khtml-border-radius:9px 0 0 0;
+}
+.titlWinCenter{
+	overflow:hidden;
+}
+.titlWinRight {
+	float:right;
+	border-radius:0 5px 0 0; 
+	-webkit-border-radius:0 5px 0 0; 
+	-moz-border-radius:0 4px 0 0; 
+	-khtml-border-radius:0 9px 0 0;
+}
+.titlWin {
+	height:20px;
+	/*background-color: gray;*/
+	background-image: url(titles_bg.gif);
+	font-family:algeR;
+	font-size:12pt;
+	color:white;
+	padding:4px 0 2px 0;
+}
+.icoWin{
+	margin-left:15px;
+	margin-top:-12px;
+}
+.icoWinClose{
+	margin-right:10px;
+	margin-top:-3px;
+}
+/* end window */
+.clean{
+	height:1px; 
+				/*overflow:hidden; - не видемые за приделами границы*/ 
+	clear:both; 
+}
+/*border: 1px solid blue;*/

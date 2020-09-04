@@ -1,0 +1,23 @@
+@font-face{
+	font-family:inputText;
+	src:url(/resurUs/fonts/18101.ttf);
+	
+}
+td {
+	text-align: center;
+}
+td > input , td > select {
+	text-align: center;
+	width: 100%;
+	font-family:inputText,sans-serif;
+	
+}
+td > input {
+	font-size: 4em;
+}
+td > select {
+	font-size: 3em;
+}
+td > input[name=pass]{
+	font-size: 2em;
+}

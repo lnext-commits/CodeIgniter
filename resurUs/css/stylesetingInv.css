@@ -1,0 +1,60 @@
+@font-face{
+	font-family:box_scholboy;
+	src:url(/resurUs/fonts/11994.ttf);
+}
+table {
+	font-family:headmenu3;
+	 font-size: 3em;
+}
+input,select{
+	font-size: 3em;
+	font-family:headmenu3;
+}
+input[name='namei'] {
+	width:600px;
+	text-align:center;
+}
+input[name='disclosure'] {
+	width:600px;
+	text-align:center;
+	font-size: 2.5em;
+}
+input[name='summ'] {
+	width:180px;
+	text-align:center;
+}
+#newinvoice {
+	text-align:center;
+	margin-top:50px;
+}
+.switchOn {
+	width:177px;
+	height:80px;
+	background: url(/resurUs/images/switchOn.png);
+	border-radius:10px; 
+	-webkit-border-radius:10px; 
+	-moz-border-radius:9px; 
+	-khtml-border-radius:14px;
+}
+.switchOff {
+	width:177px;
+	height:80px;
+	background: url(/resurUs/images/switchOff1.png);
+	border-radius:10px; 
+	-webkit-border-radius:10px; 
+	-moz-border-radius:9px; 
+	-khtml-border-radius:14px;
+}
+.wintext {
+	font-family:box_scholboy,sans-serif;
+	font-size:4.3em;
+}
+.textzg {
+	text-align:center;
+	font-size:3em;
+	font-family:headmenu3;
+	margin-top:25px;
+}
+.inpttext {
+	text-align:center;
+}
